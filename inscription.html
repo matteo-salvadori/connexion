@@ -1,0 +1,69 @@
+<html>
+        <head>
+            <title>Inscription</title>
+            <meta charset="utf8">
+            <link  rel="stylesheet" href="connexion.css">
+        </head>
+
+        <body>
+
+            <form action="connexion.html" class="Form2">
+                    <p class="round">
+                    <label>Email:</label>
+                     <input type="email" name="email" required placeholder="ex: jean.dupont@gmail.com">
+
+                    <label>Password:</label>
+                     <input type="password" name="password">
+
+                    <label>Confirm Password:</label>
+                     <input type="password" name="confirm_password">
+
+                    <label>Numéro de téléphone</label>
+                     <input type="tel" name="number" required placeholder="ex: 06 12 34 56 78">
+                     
+                     <label>Date de naissance:</label>
+                     <input id="date" type="date" value="2019-09-10">
+
+                <div class="sexe">
+                    <label>Sexe:</label>
+                     <input type="radio" name="sexe" value="Homme" checked>
+                     <label for="Homme">Homme</label>
+                     <input type="radio" name="sexe" value="Femme" checked>
+                    <label for="Femme">Femme</label></div><br />
+
+                    <label class="box">Présentez-vous:</label>
+                     <textarea></textarea><br />
+
+                    <label>Parcours</label>
+                    <select name="parcours" class="Parcours">
+                     <option>Aucun</option>
+                     <option>CAP, BEP ou équivalent</option>
+                     <option>Niveau BAC ou BAC obtenu</option>
+                     <option>BAC+2</option>
+                     <option>BAC+3</option>
+                     <option>BAC+4</option>
+                     <option>Superieur à BAC+4</option>
+                    </select><br />
+
+                    <label>Hobies</label>
+                    <select name="parcours" class="Parcours">
+                     <option>Aucun</option>
+                     <option>Télévision</option>
+                     <option>Jeux videos</option>
+                     <option>Réseaux sociaux</option>
+                     <option>Jardinage</option>
+                     <option>Bricolage</option>
+                    </select>
+                    <textarea placeholder="Autre"></textarea><br />
+
+                    <input href="connexion.html" type="submit" value="Confirmer"><br />
+                    
+            </form>
+
+            <footer>
+                    <div class="contact">
+                    <div id="bottom"><p><h2>Contact:</h2></p></div></div>
+                    <div id="contact"> <h3><a href="mailto:matteo.salvadori@laplateforme.io">Mail</a><br>
+            </footer>
+        </body>
+</html>
